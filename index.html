@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+
+    <title>Bootstrap Components</title>
+  </head>
+  <body>
+     
+     <!-- breadcrumb -->
+    <div class="container py-3">
+      <h1 class="bg-primary">Bootstrap Breadcrumb</h1>
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Blog</a></li>
+          <li class="breadcrumb-item"><a href="#">Services</a></li>
+          <li class="breadcrumb-item"><a href="#">About us</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contact us</li>
+        </ol>
+      </nav>
+    </div>
+
+    <!-- jumbotron fluid but content in a container -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <h2 class="bg-warning">Bootstrap Jumbotron</h2>
+        <h1 class="display-1">Hello World</h1>
+        <p class="lead">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat vero
+          explicabo, debitis, aspernatur sapiente voluptatem ex provident ipsagg
+          nobis dolorum molestiae blanditiis impedit! Placeat doloribus abasssgg
+        </p>
+        <hr>
+        <p>
+          nobis dolorum molestiae blanditiis impedit! Placeat doloribus abasssgg.   
+        </p>
+        <a href="" class="btn btn-lg btn-info">Read More</a>
+        </div>
+      </div>
+    
+      <!-- Bootstrap alerts -->
+    <div class="container py-3">
+      <h1 class="bg-primary">Bootstrap Alerts</h1>
+      <div class="alert alert-danger" role="alert">
+        A Simple <a href="" class="alert-link">Wrong Password</a> Alert
+      </div>
+      <div class="alert alert-success" role="alert">
+        A Simple <a href="" class="alert-link">Success Message</a> Alert
+      </div>
+      <div class="alert alert-info" role="alert">
+        A Simple <a href="" class="alert-link">Info</a> Alert
+      </div>
+      <div class="alert alert-warning" role="alert">
+        A Simple <a href="" class="alert-link">Warning</a> Alert
+      </div>
+
+      <!-- To close a alert -->
+      <div class="alert alert-dark" role="alert">
+        A Simple Alert
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="close"
+        >
+          <span>&times;</span>
+        </button>
+      </div>
+
+      <!-- To close alert smoothly -->
+      <div class="alert alert-primary alert-dismissible fade show" role="alert">
+        A Simple Alert
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="close"
+        >
+          <span>&times;</span>
+        </button>
+      </div>
+    </div>
+
+         <!-- Bootstrap Badges -->
+           <div class="container py-3">
+            <h1 class="bg-secondary">Bootstrap Badges</h1>
+          <h1>H1 heading <span class="badge badge-danger">new</span></h1>
+          <h2>H2 heading <span class="badge badge-danger">new</span></h2>
+          <h3>H3 heading <span class="badge badge-danger">new</span></h3>
+          <h4>H4 heading <span class="badge badge-danger">new</span></h4>
+          <h5>H5 heading <span class="badge badge-danger">new</span></h5>
+          <h6>H6 heading <span class="badge badge-danger">new</span></h6>
+
+          </div>
+
+         <div class="container py-3">
+        <button type="button" class="btn btn-info">
+            Notifications <span class="badge badge-light">10</span>
+            <!-- To use for screen reader user -->
+            <span class="sr-only">Unread messages</span>
+        </button>
+        <hr>
+
+        <!-- badges with bootstrap bg color -->
+        <span  class="badge badge-primary">primary</span>
+        <span class="badge badge-success">success</span>
+        <span class="badge badge-danger">danger</span>
+        <span class="badge badge-info">info</span>
+        <span class="badge badge-warning">warning</span>
+        <span class="badge badge-dark">dark</span>
+        <span class="badge badge-light">light</span>
+        <hr>
+
+
+        <!-- # pill badges # -->
+        <span  class="badge badge-pill badge-primary">primary</span>
+        <span class="badge badge-pill badge-success">success</span>
+        <span class="badge badge-pill badge-danger">danger</span>
+        <span class="badge badge-pill badge-info">info</span>
+        <span class="badge badge-pill badge-warning">warning</span>
+        <span class="badge badge-pill badge-dark">dark</span>
+        <span class="badge badge-pill badge-light">light</span>
+        <hr>
+
+
+        <!-- badges with link -->
+        <a href="#" class="badge badge-primary">primary</a>
+        <a href="#"  class="badge badge-success">success</a>
+        <a href="#" class="badge badge-danger">danger</a>
+        <a href="#" class="badge badge-info">info</a>
+        <a href="#" class="badge badge-warning">warning</a>
+        <a href="#" class="badge badge-dark">dark</a>
+        <a href="#" class="badge badge-light">light</a>
+        </div>
+        
+
+        <!-- Bootstrap Cards -->
+        <!-- normal card -->
+        <div class="container py-3">
+          <h1 class="bg-danger">Bootstrap Card</h1>
+     
+      <div class="card" style="width: 350px;">
+        <h5 class="card-header">Featured</h5>
+        <div class="card-body">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero,
+            laudantium quos cumque voluptate quod non, totam aliquam facere
+            delectus tenetur nobis. Ex fugit porro voluptatibus eius, blanditiis
+          </p>
+        </div>
+        <div class="card-footer">
+          A Simple Footer
+        </div>
+      </div>
+      <hr />
+
+
+       <!-- image card --> 
+      <div class="row">
+        <div class="col-6"><div class="card" style="width: 350px;">
+          <img src="images/moin.jpg" alt="moin" class="card-img-top" />
+          <div class="card-body">
+            <h5>Moin Uddin</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              rerum cum at ratione commodi laudantium repudiandae, repellendus
+              voluptate dolores? Qui id, voluptatibus accusamus temporibus.
+            </p>
+            <a href="" class="btn btn-info">View Profile</a>
+          </div>
+        </div>
+     </div>
+        <div class="col-6">
+            <div class="card" style="width: 350px;">
+      
+          <div class="card-body">
+            <h5>Moin Uddin</h5>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              rerum cum at ratione commodi laudantium repudiandae, repellendus
+              voluptate dolores? Qui id, voluptatibus accusamus temporibus.
+            </p>
+            <a href="" class="btn btn-info">View Profile</a>
+          </div>
+          <img src="images/moin.jpg" alt="moin" class="card-img-bottom" />
+        </div>
+      </div>
+   
+    
+
+      <!-- quote card -->
+      <div class="card bg-light" style="width: 500px;">
+        <h5 class="card-header">Quote</h5>
+        <div class="card-body">
+          <blockquote class="blockquote">
+            .
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero.
+            </p>
+            <footer class="blockquote-footer">
+              Collected From
+              <cite title="Daily Manobjomin">Daily Manobjomin</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+
+      
+      <!-- Bootstrap Dropdowns -->
+      <div class="container py-3">
+        <h1 class="bg-success">Bootstrap Dropdowns</h1>
+
+        <!-- create dropdown menu by button  -->
+        <div class="dropdown dropright">
+            <button type="button" class="btn btn-success dropdown-toggle" id="dropdown_button" data-toggle="dropdown">Dropdown Button</button>
+            <div class="dropdown-menu" aria-labelledby="dropdown_button">
+                <a href="" class="dropdown-item">Home</a>
+                <a href="" class="dropdown-item">About</a>
+                <a href="" class="dropdown-item">Blog</a>
+                <a href="" class="dropdown-item">Services</a>
+                <a href="" class="dropdown-item">Contact</a>
+
+            </div>
+        </div>
+        <hr>
+
+        <!-- create dropdown menu by link tag -->
+        <div class="dropdown">
+            <a class="btn btn-success dropdown-toggle" href="#" id="dropdown_button" data-toggle="dropdown">Dropdown link</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown_button">
+                <a href="" class="dropdown-item">Home</a>
+                <a href="" class="dropdown-item">About</a>
+                <a href="" class="dropdown-item">Blog</a>
+                <a href="" class="dropdown-item">Services</a>
+                <a href="" class="dropdown-item">Contact</a>
+
+            </div>
+            <hr>
+
+            <!-- split dropdown -->
+            <div class="dropdown">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-success">Service</button>
+                    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" id="dropdown_button" data-toggle="dropdown"></button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown_button">
+                        <a href="" class="dropdown-item">Home</a>
+                        <a href="" class="dropdown-item">About</a>
+                        <a href="" class="dropdown-item">Blog</a>
+                        <a href="" class="dropdown-item">Services</a>
+                        <a href="" class="dropdown-item">Contact</a>
+        
+                    </div>
+                 </div>
+
+                </div>
+               <hr>
+
+               
+               <!-- spit dropdown using arrow left -->
+               <div class="dropdown">
+                <div class="btn-group dropleft">
+                    <button type="button" class="btn btn-danger">Service</button>
+                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" id="dropdown_button" data-toggle="dropdown"></button>
+                    <div class="dropdown-menu" aria-labelledby="dropdown_button">
+                        <a href="" class="dropdown-item">Home</a>
+                        <a href="" class="dropdown-item">About</a>
+                        <a href="" class="dropdown-item">Blog</a>
+                        <a href="" class="dropdown-item">Services</a>
+                        <a href="" class="dropdown-item">Contact</a>
+        
+                    </div>
+                 </div>
+
+                </div>
+          </div>
+
+
+          <!-- Bootstrap Buttons -->
+          <div class="container py-3">
+            <h1 class="bg-light">Bootstrap Buttons</h1>
+
+          <!-- bootstrap button class, button size, button color -->
+          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-secondary">Secondary</button>
+          <button type="button" class="btn btn-sm btn-success">Success</button>
+          <button type="button" class="btn btn-lg btn-danger">Danger</button>
+          <button type="button" class="btn btn-warning">Warning</button>
+          <hr>
+
+
+          <!-- bootstrap button outlined/border  -->
+          <button type="button" class="btn btn-outline-primary">Primary</button>
+          <button type="button" class="btn btn-outline-secondary">Secondary</button>
+          <button type="button" class="btn btn-outline-success">Success</button>
+          <button type="button" class="btn btn-outline-danger">Danger</button>
+          <button type="button" class="btn btn-outline-warning">Warning</button>
+          <hr>
+
+          <!-- bootstrap full width button or button block -->
+          <button type="button" class="btn btn-block btn-primary">Primary</button>
+          
+          <button type="button" class="btn btn-block btn-success">Success</button>
+          <button type="button" class="btn btn-block btn-danger">Danger</button>
+          <button type="button" class="btn btn-block btn-outline-warning">Warning</button>
+          <button type="button" class="btn btn-block btn-outline-secondary">Secondary</button>
+          <hr>
+
+          <!-- Bootstrap button use as a link tags -->
+
+          <a href="#" class="btn btn-info">Download</a>
+          <hr>
+
+          <!-- disable a button -->
+          <button type="button" class="btn btn-block btn-success" disabled>Success</button>
+          <hr>
+
+          <!-- to show active status of a button -->
+          <button type="button" class="btn btn-outline-success">Success</button>
+          <button type="button" class="btn btn-outline-danger ">Danger</button>
+          <button type="button" class="btn btn-outline-warning active">Warning</button>
+          <hr>
+
+          <!-- button groups -->
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-sm btn-success">Success</button>
+            <button type="button" class="btn btn-lg btn-danger">Danger</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+         </div>
+         <div class="btn-group" role="group"> 
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+          <button type="button" class="btn btn-outline-secondary">Secondary</button>
+          <button type="button" class="btn btn-outline-success">Success</button>
+          <button type="button" class="btn btn-outline-danger">Danger</button>
+          <button type="button" class="btn btn-outline-warning">Warning</button>
+
+         </div>
+         <hr>
+
+         <!-- button toolbars -->
+         <div class="btn-toolbar" role="toolbar" aria-label="toolbar with button groups">
+            <div class="btn-group mr-2">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-sm btn-success">Success</button>
+            </div>
+            <div class="btn-group mr-2"> 
+                <button type="button" class="btn btn-outline-primary">Primary</button>
+              <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            </div>
+            <div class="btn-group"> 
+                <button type="button" class="btn btn-outline-warning">Warning</button> 
+            </div>
+
+         </div>
+        
+      </div>
+
+   
+    <!-- JS Links-->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+  </body>
+</html>
